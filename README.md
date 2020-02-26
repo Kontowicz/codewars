@@ -9,6 +9,6 @@ Complete the function that accepts a string parameter, and reverses each word in
 "This is an example!" ==> "sihT si na !elpmaxe"<br>
 "double  spaces"      ==> "elbuod  secaps"
 
--Solution
-    -[C++](solutions/cpp/task_001.cpp)
-    -[Python](solutions/python/task_001.cpp)
+- Solution
+    - [C++](solutions/cpp/task_001.cpp)
+    - [Python](solutions/python/task_001.cpp)
