@@ -11,4 +11,4 @@ Complete the function that accepts a string parameter, and reverses each word in
 
 - Solution
     - [C++](solutions/cpp/task_001.cpp)
-    - [Python](solutions/python/task_001.cpp)
+    - [Python](solutions/python/task_001.py)
