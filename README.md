@@ -43,3 +43,16 @@ Should return: 160 (the only even number)<br>
 - Solution
     - [C++](solutions/cpp/task_003.cpp)
     - [Python](solutions/python/task_003.py)
+
+---
+### Task 4
+Input will consist of a list of lists containing two items each. Each list contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
+
+#### Examples
+
+Input: [[18, 20],[45, 2],[61, 12],[37, 6],[21, 21],[78, 9]]<br>
+Output: ["Open", "Open", "Senior", "Open", "Open", "Senior"]<br>
+
+
+- Solution
+    - [Python](solutions/python/task_004.py)
