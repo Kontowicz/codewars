@@ -74,9 +74,8 @@ Output: 23
     - [Python](solutions/python/task_005.py)    
     - [Cpp](solutions/cpp/task_005.py)  
 
-
 ---
-### Task 5
+### Task 6
 
 Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
 
@@ -87,3 +86,18 @@ The binary representation of 1234 is 10011010010, so the function should return 
 - Solution
     - [Python](solutions/python/task_006.py)    
     - [Cpp](solutions/cpp/task_006.py) 
+
+---
+### Task 7
+
+Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+
+#### Examples
+
+spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw"<br>
+spinWords( "This is a test") => returns "This is a test"<br>
+spinWords( "This is another test" )=> returns "This is rehtona test"<br>
+
+- Solution
+    - [Python](solutions/python/task_007.py)    
+    - [Cpp](solutions/cpp/task_007.py) 
