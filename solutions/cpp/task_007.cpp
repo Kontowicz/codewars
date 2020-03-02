@@ -8,10 +8,12 @@ std::string spinWords(const std::string &str)
     std::string word = "";
     std::string rev_word = "";
     std::string space = "";
-    for(auto it = str.begin(); it != str.end(); it++){
-        if(*it==' '){
+    for (auto it = str.begin(); it != str.end(); it++)
+    {
+        if (*it == ' ')
+        {
             to_return += space;
-            to_return += word.size()>=5 ? rev_word : word;
+            to_return += word.size() >= 5 ? rev_word : word;
             rev_word = "";
             word = "";
             space = " ";
@@ -21,12 +23,13 @@ std::string spinWords(const std::string &str)
         rev_word = *it + rev_word;
     }
     to_return += space;
-    to_return += word.size()>=5 ? rev_word : word;
+    to_return += word.size() >= 5 ? rev_word : word;
 
-    return to_return; 
+    return to_return;
 }
 
-int main() {
+int main()
+{
     assert(spinWords("Welcome") == "emocleW");
     assert(spinWords("to") == "to");
     assert(spinWords("CodeWars") == "sraWedoC");
