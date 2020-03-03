@@ -114,3 +114,17 @@ solution(1000); // should return "M"
 - Solution
     - [Python](solutions/python/task_008.py)    
     - [Cpp](solutions/cpp/task_008.py)
+
+
+---
+### Task 9
+
+Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+
+#### Examples
+
+pig_it('Pig latin is cool') # igPay atinlay siay oolcay <br>
+pig_it('Hello world !')     # elloHay orldway ! <br>
+
+- Solution
+    - [Python](solutions/python/task_009.py)    
