@@ -150,3 +150,25 @@ anagrams('laser', ['lazing', 'lazy',  'lacer']) => []<br>
 
 - Solution
     - [Python](solutions/python/task_010.py)
+
+---
+### Task 11
+
+Return: a string formatted as a list of names separated by commas except for the last two names, which should be separated by an ampersand.
+
+#### Examples
+
+namelist([ {'name': 'Bart'}, {'name': 'Lisa'}, {'name': 'Maggie'} ])<br>
+# returns 'Bart, Lisa & Maggie'<br>
+
+namelist([ {'name': 'Bart'}, {'name': 'Lisa'} ])<br>
+# returns 'Bart & Lisa'<br>
+
+namelist([ {'name': 'Bart'} ])<br>
+# returns 'Bart'<br>
+
+namelist([])<br>
+# returns ''<br>
+
+- Solution
+    - [Python](solutions/python/task_011.py)
