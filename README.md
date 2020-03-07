@@ -190,3 +190,23 @@ likes {"Alex", "Jacob", "Mark", "Max"} // must be "Alex, Jacob and 2 others like
 
 - Solution
     - [cpp](solutions/python/task_012.py)
+
+---
+### Task 13
+
+Write a program that will calculate the number of trailing zeros in a factorial of a given number.
+
+N! = 1 * 2 * 3 * ... * N
+
+Be careful 1000! has 2568 digits...
+
+#### Examples
+
+zeros(6) = 1<br>
+# 6! = 1 * 2 * 3 * 4 * 5 * 6 = 720 --> 1 trailing zero<br>
+
+zeros(12) = 2<br>
+# 12! = 479001600 --> 2 trailing zeros<br>
+
+- Solution
+    - [cpp](solutions/python/task_013.py)
