@@ -189,7 +189,7 @@ likes {"Max", "John", "Mark"} // must be "Max, John and Mark like this"<br>
 likes {"Alex", "Jacob", "Mark", "Max"} // must be "Alex, Jacob and 2 others like this"<br>
 
 - Solution
-    - [cpp](solutions/python/task_012.py)
+    - [cpp](solutions/cpp/task_012.cpp)
 
 ---
 ### Task 13
@@ -209,4 +209,26 @@ zeros(12) = 2<br>
 # 12! = 479001600 --> 2 trailing zeros<br>
 
 - Solution
-    - [cpp](solutions/python/task_013.py)
+    - [cpp](solutions/cpp/task_013.cpp)
+
+---
+### Task 14
+
+Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+
+    HH = hours, padded to 2 digits, range: 00 - 99
+    MM = minutes, padded to 2 digits, range: 00 - 59
+    SS = seconds, padded to 2 digits, range: 00 - 59
+
+The maximum time never exceeds 359999 (99:59:59)
+
+#### Examples
+
+make_readable(0) => "00:00:00" <br>
+make_readable(5) => "00:00:05" <br>
+make_readable(60) => "00:01:00" <br>
+make_readable(86399) => "23:59:59" <br>
+make_readable(359999) => "99:59:59" <br>
+
+- Solution
+    - [python](solutions/python/task_014.py)
