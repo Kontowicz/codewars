@@ -232,3 +232,16 @@ make_readable(359999) => "99:59:59" <br>
 
 - Solution
     - [python](solutions/python/task_014.py)
+
+---
+### Task 15
+
+Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). 
+
+#### Examples
+
+to_camel_case("the-stealth-warrior") // returns "theStealthWarrior" <br>
+to_camel_case("The_Stealth_Warrior") // returns "TheStealthWarrior" <br>
+
+- Solution
+    - [cpp](solutions/cpp/task_015.cpp)
