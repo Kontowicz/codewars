@@ -258,7 +258,7 @@ add(1)(2)(3)(4); // 10<br>
 add(1)(2)(3)(4)(5); // 15<br>
 
 - Solution
-    - [python](solutions/python/task_016.cpp)
+    - [python](solutions/python/task_016.py)
 
 ---
 ### Task 17
@@ -278,4 +278,19 @@ scramble('cedewaraaossoqqyt', 'codewars') ==> True<br>
 scramble('katas', 'steak') ==> False<br>
 
 - Solution
-    - [python](solutions/python/task_017.cpp)
+    - [python](solutions/python/task_017.py)
+
+---
+### Task 18
+
+The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
+
+#### Examples
+
+"din"      =>  "((("<br>
+"recede"   =>  "()()()"<br>
+"Success"  =>  ")())())"<br>
+"(( @"     =>  "))(("<br>
+
+- Solution
+    - [cpp](solutions/cpp/task_018.cpp)
