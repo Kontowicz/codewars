@@ -294,3 +294,17 @@ The goal of this exercise is to convert a string to a new string where each char
 
 - Solution
     - [cpp](solutions/cpp/task_018.cpp)
+
+---
+### Task 19
+
+Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. 
+
+#### Examples
+
+domain_name("http://github.com/carbonfive/raygun") == "github"<br>
+domain_name("http://www.zombie-bites.com") == "zombie-bites"<br>
+domain_name("https://www.cnet.com") == "cnet"<br>
+
+- Solution
+    - [python](solutions/python/task_019.cpp)
