@@ -307,4 +307,28 @@ domain_name("http://www.zombie-bites.com") == "zombie-bites"<br>
 domain_name("https://www.cnet.com") == "cnet"<br>
 
 - Solution
-    - [python](solutions/python/task_019.cpp)
+    - [pyhton](solutions/cpp/task_019.cpp)
+
+---
+### Task 20
+
+Write a function validSolution/ValidateSolution/valid_solution() that accepts a 2D array representing a Sudoku board, and returns true if it is a valid solution, or false otherwise. The cells of the sudoku board may also contain 0's, which will represent empty cells. Boards containing one or more zeroes are considered to be invalid solutions.
+
+The board is always 9 cells by 9 cells, and every cell only contains integers from 0 to 9. 
+
+#### Examples
+
+validSolution([
+  [5, 3, 4, 6, 7, 8, 9, 1, 2],<br>
+  [6, 7, 2, 1, 9, 5, 3, 4, 8],<br>
+  [1, 9, 8, 3, 4, 2, 5, 6, 7],<br>
+  [8, 5, 9, 7, 6, 1, 4, 2, 3],<br>
+  [4, 2, 6, 8, 5, 3, 7, 9, 1],<br>
+  [7, 1, 3, 9, 2, 4, 8, 5, 6],<br>
+  [9, 6, 1, 5, 3, 7, 2, 8, 4],<br>
+  [2, 8, 7, 4, 1, 9, 6, 3, 5],<br>
+  [3, 4, 5, 2, 8, 6, 1, 7, 9]<br>
+]); // => true<br>
+
+- Solution
+    - [python](solutions/python/task_020.py)
